@@ -17,9 +17,9 @@ namespace ConsoleApp1
             Order mySecondOrder = new Order();
             cs1.AddOrder(mySecondOrder);
 
-            Order mar1 = new Order();
-            Order mar2 = new Order();
-            cs1.AddOrder(mar1, mar2);
+            //Order mar1 = new Order();
+            //Order mar2 = new Order();
+            //cs1.AddOrder(mar1, mar2);
             Console.WriteLine(cs1.Orders.Count);
         }
     }
